@@ -3,18 +3,18 @@
  <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo">
   <void property="iuToNodeKey">
    <void method="put">
-    <string>fr.obeo.dsl.safety.feature</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.obeonetwork.com/#65552</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
     <string>org.eclipse.emf.ecoretools.design</string>
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.obeonetwork.com/#1728547</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>fr.obeo.dsl.safety.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.obeonetwork.com/#65552</string>
      </void>
     </object>
    </void>
@@ -73,6 +73,14 @@
     </object>
    </void>
    <void method="put">
+    <string>org.eclipse.sdk</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.obeonetwork.com/#1069</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>markdown.editor.feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -83,14 +91,6 @@
      </void>
      <void method="add">
       <string>http://marketplace.eclipse.org#759140</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
-    <string>org.eclipse.sdk</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.obeonetwork.com/#1069</string>
      </void>
     </object>
    </void>
@@ -218,6 +218,14 @@
     </object>
    </void>
    <void method="put">
+    <string>org.obeonetwork.dsl.requirement.design.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.obeonetwork.com/#407399</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>tern-feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -235,10 +243,13 @@
     </object>
    </void>
    <void method="put">
-    <string>org.obeonetwork.dsl.requirement.design.feature</string>
+    <string>org.nodeclipse.phantomjs.feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>http://marketplace.obeonetwork.com/#407399</string>
+      <string>http://marketplace.eclipse.org#1520853</string>
+     </void>
+     <void method="add">
+      <string>http://marketplace.eclipse.org#775276</string>
      </void>
     </object>
    </void>
@@ -250,17 +261,6 @@
      </void>
      <void method="add">
       <string>http://marketplace.eclipse.org#759140</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
-    <string>org.nodeclipse.phantomjs.feature</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.eclipse.org#1520853</string>
-     </void>
-     <void method="add">
-      <string>http://marketplace.eclipse.org#775276</string>
      </void>
     </object>
    </void>
@@ -377,14 +377,6 @@
     </object>
    </void>
    <void method="put">
-    <string>org.zeroturnaround.eclipse.feature</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.eclipse.org#29591</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
     <string>tern-server-nodejs-feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -402,13 +394,10 @@
     </object>
    </void>
    <void method="put">
-    <string>org.nodeclipse</string>
+    <string>org.zeroturnaround.eclipse.feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>http://marketplace.eclipse.org#775276</string>
-     </void>
-     <void method="add">
-      <string>http://marketplace.eclipse.org#759140</string>
+      <string>http://marketplace.eclipse.org#29591</string>
      </void>
     </object>
    </void>
@@ -417,6 +406,17 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.obeonetwork.com/#1069</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.nodeclipse</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#775276</string>
+     </void>
+     <void method="add">
+      <string>http://marketplace.eclipse.org#759140</string>
      </void>
     </object>
    </void>
@@ -942,18 +942,18 @@
     </object>
    </void>
    <void method="put">
-    <string>org.eclipse.emf.compare.ide.ui</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.obeonetwork.com/#1069</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
     <string>org.eclipse.mylyn_feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.eclipse.org#206</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.emf.compare.ide.ui</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.obeonetwork.com/#1069</string>
      </void>
     </object>
    </void>
@@ -982,18 +982,18 @@
     </object>
    </void>
    <void method="put">
-    <string>org.sweetlemonade.eclipse.json.feature</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>http://marketplace.eclipse.org#1520853</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
     <string>org.eclipse.umlgen.gen.java.ui.feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.obeonetwork.com/#790236</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.sweetlemonade.eclipse.json.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#1520853</string>
      </void>
     </object>
    </void>
@@ -1071,16 +1071,57 @@
     </object>
    </void>
    <void method="put">
-    <string>http://marketplace.obeonetwork.com/#315390</string>
+    <string>http://marketplace.obeonetwork.com/#1360495</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>org.obeonetwork.dsl.typelibrary.feature</string>
+      <string>org.obeonetwork.dsl.sysml.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#759140</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>gitaddon.feature</string>
      </void>
      <void method="add">
-      <string>org.obeonetwork.dsl.database.design.feature</string>
+      <string>tern-feature</string>
      </void>
      <void method="add">
-      <string>org.eclipse.gmf.runtime.notation.feature.patch</string>
+      <string>de.bastiankrol.startexplorer.feature</string>
+     </void>
+     <void method="add">
+      <string>org.chromium.debug</string>
+     </void>
+     <void method="add">
+      <string>tern-server-nodejs-feature</string>
+     </void>
+     <void method="add">
+      <string>org.chromium.sdk</string>
+     </void>
+     <void method="add">
+      <string>pm.eclipse.editbox.feature</string>
+     </void>
+     <void method="add">
+      <string>markdown.editor.feature</string>
+     </void>
+     <void method="add">
+      <string>org.nodeclipse.enide.editors.jade.feature</string>
+     </void>
+     <void method="add">
+      <string>org.nodeclipse</string>
+     </void>
+     <void method="add">
+      <string>net.mihai-nita.ansicon</string>
+     </void>
+     <void method="add">
+      <string>tern-jsdt-feature</string>
+     </void>
+     <void method="add">
+      <string>com.eclipsesource.jshint.feature</string>
+     </void>
+     <void method="add">
+      <string>org.nodeclipse.pluginslist.feature</string>
      </void>
     </object>
    </void>
@@ -1153,57 +1194,16 @@
     </object>
    </void>
    <void method="put">
-    <string>http://marketplace.eclipse.org#759140</string>
+    <string>http://marketplace.obeonetwork.com/#315390</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>gitaddon.feature</string>
+      <string>org.obeonetwork.dsl.typelibrary.feature</string>
      </void>
      <void method="add">
-      <string>tern-feature</string>
+      <string>org.obeonetwork.dsl.database.design.feature</string>
      </void>
      <void method="add">
-      <string>de.bastiankrol.startexplorer.feature</string>
-     </void>
-     <void method="add">
-      <string>org.chromium.debug</string>
-     </void>
-     <void method="add">
-      <string>tern-server-nodejs-feature</string>
-     </void>
-     <void method="add">
-      <string>org.chromium.sdk</string>
-     </void>
-     <void method="add">
-      <string>pm.eclipse.editbox.feature</string>
-     </void>
-     <void method="add">
-      <string>markdown.editor.feature</string>
-     </void>
-     <void method="add">
-      <string>org.nodeclipse.enide.editors.jade.feature</string>
-     </void>
-     <void method="add">
-      <string>org.nodeclipse</string>
-     </void>
-     <void method="add">
-      <string>net.mihai-nita.ansicon</string>
-     </void>
-     <void method="add">
-      <string>tern-jsdt-feature</string>
-     </void>
-     <void method="add">
-      <string>com.eclipsesource.jshint.feature</string>
-     </void>
-     <void method="add">
-      <string>org.nodeclipse.pluginslist.feature</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
-    <string>http://marketplace.obeonetwork.com/#1360495</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>org.obeonetwork.dsl.sysml.feature</string>
+      <string>org.eclipse.gmf.runtime.notation.feature.patch</string>
      </void>
     </object>
    </void>
@@ -1212,14 +1212,6 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>org.eclipse.koneki.ldt.feature.group</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
-    <string>http://marketplace.eclipse.org#857</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>moreclipboard.feature</string>
      </void>
     </object>
    </void>
@@ -1235,6 +1227,22 @@
     </object>
    </void>
    <void method="put">
+    <string>http://marketplace.eclipse.org#857</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>moreclipboard.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#1776078</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>com.bitreactive.blocks</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>http://marketplace.eclipse.org#1097343</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -1245,14 +1253,6 @@
      </void>
      <void method="add">
       <string>org.nodeclipse.pluginslist.feature</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
-    <string>http://marketplace.eclipse.org#1776078</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>com.bitreactive.blocks</string>
      </void>
     </object>
    </void>
@@ -1547,14 +1547,6 @@
     </object>
    </void>
    <void method="put">
-    <string>http://marketplace.eclipse.org#24993</string>
-    <object class="java.util.ArrayList">
-     <void method="add">
-      <string>com.github.enerate.feature</string>
-     </void>
-    </object>
-   </void>
-   <void method="put">
     <string>http://marketplace.obeonetwork.com/#43332</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -1562,6 +1554,14 @@
      </void>
      <void method="add">
       <string>org.eclipse.gmf.runtime.notation.feature.patch</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#24993</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>com.github.enerate.feature</string>
      </void>
     </object>
    </void>
